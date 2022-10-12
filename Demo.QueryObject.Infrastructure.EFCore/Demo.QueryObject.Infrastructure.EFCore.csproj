@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.QueryObject.DAL\Demo.QueryObject.DAL.csproj" />
+    <ProjectReference Include="..\Demo.QueryObject.Infrastructure\Demo.QueryObject.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
